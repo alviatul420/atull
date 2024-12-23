@@ -1,0 +1,93 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfcab6;
+    padding: 5px;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 25px;
+    color: white;
+    font-family: unset;
+    font-size: small;
+    margin: 10px;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+nav ul li a {
+    color:  #955e5e;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+  
+nav ul li a:hover {
+   color: #a69f9f;
+}
+
+.logo{
+    color:  #955e5e;
+    font-size: 20px;
+}
+
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #cfcab6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    margin: 5rem 0 0 17rem;
+  }
+  
+  .certificate-item {
+    text-align: center;
+  }
+  
+  .certificate-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certificate-item p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #955e5e;
+    font-weight: bold;
+  }
+
+  .footer{
+    padding: 5px;
+    background-color: #cfcab6;;
+    color: #955e5e;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 21px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
